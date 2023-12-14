@@ -9,7 +9,7 @@ const Picture = ({ data }) => {
       </div>
       <p>
         在此下載圖片:{" "}
-        <a target="_blank" href={data.src.large}>
+        <a target="_blank" href={data.src.large} rel="noopener noreferrer">
           按一下
         </a>
       </p>

@@ -62,7 +62,7 @@ const HomePage = () => {
 
   useEffect(() => {
     search(initialURL);
-  }, [count]);
+  }, [count, search, initialURL]);
 
   return (
     <div style={{ minHeight: "100vh" }}>

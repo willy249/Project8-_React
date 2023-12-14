@@ -24,7 +24,7 @@ const Search = ({ search, inputValue, setInputValue }) => {
     return () => {
       window.removeEventListener("keydown", handleKeyDown);
     };
-  }, [inputValue, setInputValue]);
+  }, [inputValue, setInputValue, handleKeyDown]);
 
   return (
     <div className="search">
