@@ -24,6 +24,7 @@ const Search = ({ search, inputValue, setInputValue }) => {
     return () => {
       window.removeEventListener("keydown", handleKeyDown);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [inputValue, setInputValue]);
 
   return (
